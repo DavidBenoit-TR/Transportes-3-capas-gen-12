@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transportes 3 capas gen 12"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{C024BA98-ED86-4E48-8974-44C9B27CDB78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VO", "VO\VO.csproj", "{A38E91E1-A2EB-445E-A69A-B56ABD18CAE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C024BA98-ED86-4E48-8974-44C9B27CDB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C024BA98-ED86-4E48-8974-44C9B27CDB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C024BA98-ED86-4E48-8974-44C9B27CDB78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38E91E1-A2EB-445E-A69A-B56ABD18CAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38E91E1-A2EB-445E-A69A-B56ABD18CAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38E91E1-A2EB-445E-A69A-B56ABD18CAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38E91E1-A2EB-445E-A69A-B56ABD18CAE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

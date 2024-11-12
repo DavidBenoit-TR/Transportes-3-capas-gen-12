@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C024BA98-ED86-4E48-8974-44C9B27CDB78}</ProjectGuid>
+    <ProjectGuid>{A38E91E1-A2EB-445E-A69A-B56ABD18CAE0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DAL</RootNamespace>
-    <AssemblyName>DAL</AssemblyName>
+    <RootNamespace>VO</RootNamespace>
+    <AssemblyName>VO</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,16 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="configuracion.cs" />
-    <Compile Include="DAL_Camiones.cs" />
-    <Compile Include="metods_datos.cs" />
+    <Compile Include="Camiones_VO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\VO\VO.csproj">
-      <Project>{a38e91e1-a2eb-445e-a69a-b56abd18cae0}</Project>
-      <Name>VO</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
