@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Catalogos\Camiones\formulariocamiones.aspx" />
     <Content Include="Catalogos\Camiones\listar_Camiones.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -193,6 +194,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Catalogos\Camiones\formulariocamiones.aspx.cs">
+      <DependentUpon>formulariocamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Camiones\formulariocamiones.aspx.designer.cs">
+      <DependentUpon>formulariocamiones.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\Camiones\listar_Camiones.aspx.cs">
       <DependentUpon>listar_Camiones.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
