@@ -20,13 +20,11 @@ namespace BLL
         {
             return DAL_Camiones.Get_Camiones(parametros);
         }
-
         //Update
         public static string actualizar_Camion(Camiones_VO camion)
         {
             return DAL_Camiones.actualizar_Camion(camion);
         }
-
         //Delete
         public static string eliminar_Camion(int id)
         {
