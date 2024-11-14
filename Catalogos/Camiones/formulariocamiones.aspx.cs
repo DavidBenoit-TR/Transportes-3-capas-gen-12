@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.WebSockets;
+using Transportes_3_capas_gen_12.Utilidades;
 using VO;
 
 namespace Transportes_3_capas_gen_12.Catalogos.Camiones
@@ -161,6 +162,7 @@ namespace Transportes_3_capas_gen_12.Catalogos.Camiones
                 tipo = "error";
             }
             //sweet alert
+            sweetAlert.Sweet_Alert(titulo, respuesta, tipo, this.Page, this.GetType(), "/catalogos/camiones/listar_Camiones.aspx");
         }
     }
 }
