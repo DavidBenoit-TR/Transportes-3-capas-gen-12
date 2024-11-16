@@ -154,6 +154,7 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="WS\Calculadora\calculadora_Service.asmx" />
+    <Content Include="WS\Camiones\camiones_Service.asmx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -267,6 +268,10 @@
     </Compile>
     <Compile Include="WS\Calculadora\calculadora_Service.asmx.cs">
       <DependentUpon>calculadora_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WS\Camiones\camiones_Service.asmx.cs">
+      <DependentUpon>camiones_Service.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
